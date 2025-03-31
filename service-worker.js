@@ -1,10 +1,10 @@
 const CACHE_NAME = 'sna-pwa-cache-v2';
 const urlsToCache = [
-    '/sna/',
-    '/sna/index.html',
-    '/sna/manifest.json',
-    '/sna/icon-192x192.png',
-    '/sna/icon-512x512.png'
+    '/',
+    '/index.html',
+    '/manifest.json',
+    '/icon-192x192.png',
+    '/icon-512x512.png'
 ];
 
 self.addEventListener('install', (event) => {
